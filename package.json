@@ -1,0 +1,25 @@
+{
+  "name": "shopping-checkout-system",
+  "version": "1.0.0",
+  "description": "Shopping checkout system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+		"test:watch": "jest --watch",
+		"test:cov": "jest --coverage",
+    "start": "node --loader ts-node/esm index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm i -D typescript ts-node"
+  },
+  "author": "Deepika",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
